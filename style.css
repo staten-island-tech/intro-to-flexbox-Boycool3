@@ -4,8 +4,34 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: rgb(204, 125, 162);
 }
 h1 {
   font-family: "SinaNovaW01-Regular";
   font-size: 22px;
+}
+h3 {
+  font-family: 'SinaNovaW01-Regular';
+  border: 5px ridge rgb(218, 53, 94);
+  font-size: 18px;
+  text-align: center;
+  background-color: rgb(235, 153, 185);
+}
+p {
+  font-family: 'SinaNovaW01-Regular', Arial;
+  font-size: 14px;
+  background-color: rgb(177, 129, 189);
+}
+.card {
+border: 10px ridge rgb(102, 51, 153);
+border-radius: 15px;
+background-color: rgb(177, 129, 189);
+justify-self: center;
+text-align: center;
+width: 275px;
+height: 350px;
+margin-bottom: 75px;
+}
+img {
+  object-fit: contain;
 }
