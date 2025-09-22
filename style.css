@@ -45,6 +45,18 @@ margin-bottom: 75px;
   position: relative;
   top: 300px;
 }
+h1 {
+  background-color: rgb(235, 148, 196);
+  border: 16px ridge rgb(61, 9, 66);
+  color: rgb(0, 0, 0);
+  font-family: 'SinaNovaW01-Regular';
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 100px;
+  height: 115px;
+  text-justify: center;
+}
 a{
   text-decoration: none;
 }
