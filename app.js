@@ -4,8 +4,8 @@ let number3 = 2;
 let number4 = 9;
 
 let bowl1 = 99;
-let bowl2 = 10;
-let bowl3 = 1;
+let bowl2 = 1;
+let bowl3 = 10;
 
 enter(number1, number2, number3, number4);
 
