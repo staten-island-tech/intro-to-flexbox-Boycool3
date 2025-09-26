@@ -24,16 +24,16 @@ function enter(number1, number2, number3, number4) {
 bowl(bowl1, bowl2, bowl3)
 
 function bowl(bowl1, bowl2, bowl3) {
-  if (bowl1 >= bowl2 && bowl1 <= bowl3 || bowl1 <= bowl2 && bowl1 >= bowl3){
+  if (bowl1 > bowl2 && bowl1 < bowl3 || bowl1 < bowl2 && bowl1 > bowl3){
     console.log(bowl1);
   }
-  else if(bowl2 >= bowl1 && bowl2 <= bowl3 || bowl2 <= bowl1 && bowl2 >= bowl3){
+  else if(bowl2 > bowl1 && bowl2 < bowl3 || bowl2 < bowl1 && bowl2 > bowl3){
     console.log(bowl2);
   }
-  else if(bowl3 >= bowl1 && bowl3 <= bowl2 || bowl3 <= bowl1 && bowl3 >= bowl2){
+  else if(bowl3 > bowl1 && bowl3 < bowl2 || bowl3 < bowl1 && bowl3 > bowl2){
     console.log(bowl3);
   }
   else{
-    console.log("ermmm what the sigma");
+    console.log("they're no middle bowl,,, ermmm what the sigma");
   }
 }
