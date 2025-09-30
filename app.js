@@ -34,6 +34,35 @@ function bowl(bowl1, bowl2, bowl3) {
     console.log(bowl3);
   }
   else{
-    console.log("they're no middle bowl,,, ermmm what the sigma");
+    console.log("they're no middles bowl,,, ermmm what the sigma");
+  }
+}
+
+
+//===================================================================================================================================================================================
+
+let sentence = "The red cat sat on the mat. Why are you so sad cat? Don't ask that.";
+console.log(sentence);
+//const t = x.filter((x) => x == "t")
+//const s = x.filter((x) => x == "s")
+
+englishslashfrench(sentence)
+
+function englishslashfrench(sentence) {
+  let t = 0
+  let s = 0
+  for (let i = 0; i < sentence.length; i++) {
+    if (sentence[i] === 's' || sentence[i] === 'S'){
+    s = s + 1;
+  }
+  else if(sentence[i] === 't' || sentence[i] === 'T'){
+    t = t + 1;
+  }
+  }
+  if (t > s) {
+    console.log("English")
+  }
+  else{
+    console.log("FRENCH")
   }
 }
