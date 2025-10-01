@@ -32,6 +32,7 @@ function bowl(bowl1, bowl2, bowl3) {
   }
   else if(bowl3 > bowl1 && bowl3 < bowl2 || bowl3 < bowl1 && bowl3 > bowl2){
     console.log(bowl3);
+
   }
   else{
     console.log("they're no middles bowl,,, ermmm what the sigma");
@@ -43,12 +44,10 @@ function bowl(bowl1, bowl2, bowl3) {
 
 let sentence = "The red cat sat on the mat. Why are you so sad cat? Don't ask that.";
 console.log(sentence);
-//const t = x.filter((x) => x == "t")
-//const s = x.filter((x) => x == "s")
 
-englishslashfrench(sentence)
+englishorfrenchanish(sentence)
 
-function englishslashfrench(sentence) {
+function englishorfrenchanish(sentence) {
   let t = 0
   let s = 0
   for (let i = 0; i < sentence.length; i++) {
@@ -66,3 +65,14 @@ function englishslashfrench(sentence) {
     console.log("FRENCH")
   }
 }
+
+function car(yesterday, today){
+let x = 0
+for (let i = 0; i < yesterday.length; i++) {
+    if (yesterday[i] === 'c' && today[i] === 'c'){
+    x = x + 1;
+  }
+}
+console.log(x)
+}
+car("ccccc", ".c.c.c.")
