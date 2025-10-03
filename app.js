@@ -7,7 +7,7 @@ let bowl1 = 99;
 let bowl2 = 1;
 let bowl3 = 10;
 
-enter(number1, number2, number3, number4);
+//enter(number1, number2, number3, number4);
 
 function enter(number1, number2, number3, number4) {
   if (number1 === 8 || number1 === 9) {
@@ -21,7 +21,7 @@ function enter(number1, number2, number3, number4) {
   }
 }
 
-bowl(bowl1, bowl2, bowl3)
+//bowl(bowl1, bowl2, bowl3)
 
 function bowl(bowl1, bowl2, bowl3) {
   if (bowl1 > bowl2 && bowl1 < bowl3 || bowl1 < bowl2 && bowl1 > bowl3){
@@ -42,10 +42,10 @@ function bowl(bowl1, bowl2, bowl3) {
 
 //===================================================================================================================================================================================
 
-let sentence = "The red cat sat on the mat. Why are you so sad cat? Don't ask that.";
-console.log(sentence);
+let sentence = "The blue cat sat on the mat. Why are you so sad cat? Don't ask that.";
+//console.log(sentence);
 
-englishorfrenchanish(sentence)
+//englishorfrenchanish(sentence)
 
 function englishorfrenchanish(sentence) {
   let t = 0
@@ -75,4 +75,6 @@ for (let i = 0; i < yesterday.length; i++) {
 }
 console.log(x)
 }
-car("ccccc", ".c.c.c.")
+car("cccccccccccccccccccc", "..bomb....c.....c..c")
+//========================================================================================================================================================================================
+
