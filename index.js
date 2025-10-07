@@ -7,4 +7,5 @@ function makeRGB(event) {
   let g = Math.floor(Math.random() * 256);
   let b = Math.floor(Math.random() * 256);
   box.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+  button.style.backgroundColor = `rgb(${r}, ${r}, ${r})`; 
 }
