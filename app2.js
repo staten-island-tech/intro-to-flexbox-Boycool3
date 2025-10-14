@@ -17,7 +17,7 @@ const products = [
   { name: "AWESOME EVIL BLUE FLAMING SKULL FLOATING NEXT TO KEYBOARD WITH KEYBOARD KEY WITH G ON IT HIGHLIGHTED", img: "https://i.ytimg.com/vi/dyEoHE85Q3c/hqdefault.jpg", price: 1.99, Alignment: "Chaotic Evil", type: "Supernatural", instock: false, blue: true},
   { name: "Rare Gems", img: "rcokandroller.jpeg", price: 19999.99, Alignment: "Lawful Evil", type: "Legal", instock: true, blue: false },
   { name: "Ugly Yellow Rock", img: "yuck.png", price: 0.05, Alignment: "Lawful Good", type: "Legal", instock: true, blue: false },
-  { name: "My Ancestor's Ghost", price: 40203.91, img: "ghtsottsgost.jpg", Alignment: "Neutral Evil", type: "Supernatural", instock: true, blue: true },
+  { name: "My Ancestor's Ghost", price: 60006, img: "ghtsottsgost.jpg", Alignment: "Neutral Evil", type: "Supernatural", instock: true, blue: true },
   { name: "All of my Personal Information", img: "file.png", price: 4999.99, Alignment: "True Neutral", type: "Legal", instock: true, blue: false },
   { name: "Nuclear Codes", img: "https://i.etsystatic.com/43407624/r/il/8f46c8/6135293562/il_fullxfull.6135293562_7grj.jpg", price: 149999.99, Alignment: "Neutral Evil", type: "Illegal", instock: false, blue: false },
   { name: "Truth Nuke Codes", img: "https://media.tenor.com/bH1_fj4u9ogAAAAe/true-morgan-freeman.png", price: 12999.99, Alignment: "Neutral Good", type: "Legal", instock: true, blue: true },
@@ -33,11 +33,18 @@ const products = [
 
 function inject(item){
 const container = document.querySelector(".container");
-container.insertAdjacentHTML("afterbegin", `<h1>${item.name}</h1>`);
+container.insertAdjacentHTML("afterbegin", 
+  `<div class="card">
+      <h1 class="name">${item.name}</h1>
+      <img class="imag" src="${item.img}"/>
+      <h2 class="price">${item.price}$</h2>
+      <button class="btn">Add to Cart</button>
+    </div>`
+);
 }
 products.forEach((product) => inject(product));
 
-inject(products[0]);
+inject(products[20]);
 
 function AddtoCart(){
   const buttons = document.querySelectorAll("button");

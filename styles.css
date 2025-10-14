@@ -3,7 +3,34 @@
     height: 600px;
 }
 .btn{
-    width: 200px;
-    height: 35px;
-    border: ridge 4px gray;
+    width: 400px;
+    height: 70px;
+    border: ridge 10px silver;
+    margin-left: 10%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.card{
+    width: 500px;
+    height: auto;
+    border: solid 8px, crimson;
+    background-color: rgb(236, 66, 66);
+    border-radius: 4px;
+    margin: 50px;
+}
+.name{
+    background-color: crimson;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.price{
+background-color: gold;
+padding: 10px;
+border: double 15px rgb(233, 123, 19);
+text-align: center
+}
+.imag{
+    object-fit: scale-down;
 }
